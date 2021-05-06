@@ -1,0 +1,38 @@
+body {
+    background-color: cadetblue;
+}
+
+.main {
+    display: grid;
+    place-items: center;
+}
+
+.title {
+    padding: 1em;
+}
+
+.sudoku {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 1em;
+    border-right: 1px solid gray;
+}
+
+th:nth-child(3n) {
+    border-right: 2px solid black;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+
+tr:nth-child(3n) {
+    border-bottom: 2px solid black;
+}
+
+.start {
+    margin-top: 2em;
+}
